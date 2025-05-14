@@ -1,0 +1,149 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url("/static/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 420px;
+    margin: 60px auto 20px;
+    background: rgba(10, 10, 40, 0.95);
+    padding: 40px 35px 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 28px;
+    font-size: 30px;
+    color: #ffc107;
+    text-shadow: 1px 1px 3px #000;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #e6e6e6;
+  }
+  
+  .bi {
+    color: #00d9ff;
+    margin-right: 6px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 11px 14px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    background-color: #252542;
+    color: #f8f9fa;
+    box-sizing: border-box;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    background-color: #303050;
+  }
+  
+  button {
+    width: 100%;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px rgba(0, 114, 255, 0.4);
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+  }
+  
+  .result {
+    margin-top: 28px;
+    font-size: 20px;
+    text-align: center;
+    padding: 16px;
+    background-color: #004b70;
+    border: 2px dashed #1abc9c;
+    border-radius: 12px;
+    color: #1abc9c;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+
+  footer {
+    margin-top: auto;
+    padding: 25px 20px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #e0e0e0;
+    border-top: 2px solid #00688B;
+    border-radius: 0 0 12px 12px;
+  }
+  
+
+  footer i {
+    color: #00c6ff;
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      margin: 30px 15px;
+      padding: 28px 22px;
+    }
+  }
+  
+
+footer .license-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #444;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  }
+  
+  footer strong {
+    color: #ffc107;
+    font-weight: 600;
+  }
+
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #252542;
+    background-image: url("data:image/svg+xml,%3Csvg fill='%2300c6ff' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+    padding-right: 36px;
+  }
