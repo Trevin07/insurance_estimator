@@ -102,7 +102,3 @@ pip freeze > requirements.txt
 
 ---
 
-Let me know if you want to add:
-- ✅ Badges (Python version, Flask status, license, etc.)
-- 🌐 Hosting instructions (Heroku, Render, Vercel, etc.)
-- 🖼 A custom banner image or GitHub profile description
