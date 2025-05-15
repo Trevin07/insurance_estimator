@@ -44,7 +44,7 @@ A Flask-based machine learning web application that predicts  health insurance c
 - Clean and responsive UI built with HTML, CSS, and Bootstrap Icons  
 - Backend logic powered by Flask  
 - Predicts medical insurance costs using machine learning  
-- Uses trained models with **XGBoost** and **Scikit-learn**
+- Uses trained models with **XGBoost** and **Scikit-learn** with an accuracy of 86%
 
 ---
 
