@@ -1,4 +1,36 @@
 # 🩺 Insurance Estimator Web App
+<p>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python" alt="Python" width="120"/>
+  </a>
+  <a href="https://flask.palletsprojects.com/">
+    <img src="https://img.shields.io/badge/Flask-2.0%2B-grey?style=flat-square&logo=flask" alt="Flask" width="120"/>
+  </a>
+  <a href="https://scikit-learn.org/">
+    <img src="https://img.shields.io/badge/scikit--learn-1.6.1-green?style=flat-square&logo=scikit-learn" alt="scikit-learn" width="120"/>
+  </a>
+  <br>
+  <a href="https://xgboost.ai/">
+    <img src="https://img.shields.io/badge/XGBoost-2.0%2B-red?style=flat-square&logo=xgboost" alt="XGBoost" width="120"/>
+  </a>
+  <a href="https://pandas.pydata.org/">
+    <img src="https://img.shields.io/badge/pandas-1.5.3-blue?style=flat-square&logo=pandas" alt="pandas" width="120"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
+    <img src="https://img.shields.io/badge/HTML5-E34F26-orange?style=flat-square&logo=html5" alt="HTML5" width="120"/>
+  </a>
+  <br>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+    <img src="https://img.shields.io/badge/CSS3-1572B6-blue?style=flat-square&logo=css3" alt="CSS3" width="120"/>
+  </a>
+  <a href="https://fontawesome.com/">
+    <img src="https://img.shields.io/badge/Font_Awesome-6.5.0-purple?style=flat-square&logo=fontawesome" alt="Font Awesome" width="120"/>
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT License" width="120"/>
+  </a>
+</p>
+
 
 A Flask-based machine learning web application that predicts  health insurance charges based on user inputs like age, sex, BMI, number of children, and smoking status.
 
