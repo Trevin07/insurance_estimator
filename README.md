@@ -1,6 +1,6 @@
 # 🩺 Insurance Estimator Web App
 
-A Flask-based machine learning web application that predicts insurance charges based on user inputs like age, sex, BMI, number of children, and smoking status.
+A Flask-based machine learning web application that predicts  health insurance charges based on user inputs like age, sex, BMI, number of children, and smoking status.
 
 ![Screenshot 1](screenshot1.png)  
 
