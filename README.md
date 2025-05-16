@@ -93,7 +93,7 @@ This project shows how machine learning can be integrated into a real-world appl
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/insurance_estimator.git
+git clone https://github.com/Trevin07/insurance_estimator.git
 cd insurance_estimator
 ```
 
